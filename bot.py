@@ -5,7 +5,7 @@ import lightbulb
 import requests
 import alexflipnote
 import akaneko
-bot = lightbulb.BotApp(token='OTQ2Mzk3NDAwNzY1OTY4Mzg0.YheHQw.8jNwHZYcMo7h9i6Fj3fHJDB96_c', prefix=".", default_enabled_guilds=(659776817875386381))
+bot = lightbulb.BotApp(token='OTQ3MTY3Mzc3OTYxOTIyNjAx.YhpUXA.grrxmxc38lVP5pih6T-D5buDkBI', prefix=".", default_enabled_guilds=(925246527709020160))
 
 # Flipnote API Client
 
@@ -786,10 +786,6 @@ async def help_group(ctx):
     m.add_field(name='😄 Fun', value="hug, kiss, cuddle, slap, dance, smug, awoo, blush, smile, cringe, cry, lick, pat, poke, tickle, bite, bonk, yeet, bully, tackle, kick, handhold, highfive")
     m.add_field(name='🖼️ Images',value="wallpaper, cat, sadcat, dog, birb, coffee, food, neko, kemonomimi, waifu, megumin, kanna, shinobu")
     m.add_field(name='😂 Funny',value="joke, insult, memes, animememes")
-    m.add_field(
-        name='🔞 NSFW',
-        value="gif, wallpapernsfw, sexy, fuck, porn, blowjob, cum, nudes, boobs, hboobs, hentai, hneko, kitsune, 4k, lewd, pussy, feet, ass, hass, spank, ahegao, midriff, lesbian, anal, hanal, belle, bellepic, threesome, gangbang, panties, trap, thighs, hthighs, masturbation, tentacles, orgy, school, succbus, uglybastard, glasses, bdsm, bondage, maid, uniform, netorare, paizuri, femdom, doujin"    
-        )
     m.add_field(name='⭐ Rating',value="coolrate, gay, simp")
     await ctx.respond(m)
     
